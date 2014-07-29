@@ -1,3 +1,27 @@
 this is text file 2
 iEdit
 this is awesome! everyting is awesome!
+WWWWWWEEEEEEEEE!!! 
+
+
+***************
+
+"upstream" in the github example is just the name they've chosen to refer to that repository. You may choose any that you like when using git remote add. Depending on what you select for this name, your git pull usage will change. For example, if you use:
+
+git remote add "upstream" git://github.com/somename/original-project.git
+
+then you would use this to pull changes:
+
+git pull "upstream" master
+
+But, if you choose "origin" for the name of the remote repo, your commands would be:
+
+To name the remote repo in your local config: git remote add "origin" git://github.com/somename/original-project.git
+
+And to pull: git pull "origin" master
+
+****************
+
+
+git pull myeda master - get update
+git push myeda master - put udate
