@@ -27,3 +27,5 @@ And to pull: git pull "origin" master
 
 git pull myeda master - get update
 git push myeda master - put udate
+
+???
